@@ -41,6 +41,7 @@
     </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
@@ -54,6 +55,7 @@
     <Compile Include="Problem2Test.cs" />
     <Compile Include="Problem3Test.cs" />
     <Compile Include="Problem4Test.cs" />
+    <Compile Include="Problem7Test.cs" />
     <Compile Include="ProblemTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
