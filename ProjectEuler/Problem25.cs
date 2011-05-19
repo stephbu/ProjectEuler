@@ -8,8 +8,18 @@ namespace ProjectEuler
     {
         public static void GetThousandDigitFibonacci()
         {
-            BigInteger thousandDigit = Fibonnaci.BigIntegerSequence.SkipWhile(num => num.ToString().Length < 1000).First();
-            System.Diagnostics.Debug.WriteLine(thousandDigit);
+            // Skip the first result - sequence is 0,1,1,2 etc...
+            var bigFib = Fibonnaci.BigIntegerSequence.Skip(1);
+            int count = 0;
+            foreach (BigInteger term in bigFib)
+            {
+                count++;
+                System.Diagnostics.Debug.WriteLine("{0} : {1}", new object[]{count, term});
+                if (term.ToString().Length == 1000)
+                { break; }                                       
+            }
+            System.Diagnostics.Debug.WriteLine(count);
+
         }
     }
 }
