@@ -43,14 +43,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Fibonnaci.cs" />
+    <Compile Include="LongExtensions.cs" />
     <Compile Include="Prime.cs" />
     <Compile Include="Problem1.cs" />
+    <Compile Include="Problem10.cs" />
+    <Compile Include="Problem12.cs" />
     <Compile Include="Problem14.cs" />
     <Compile Include="Problem2.cs" />
     <Compile Include="Problem25.cs" />
     <Compile Include="Problem3.cs" />
     <Compile Include="Problem4.cs" />
     <Compile Include="Problem7.cs" />
+    <Compile Include="Problem8.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

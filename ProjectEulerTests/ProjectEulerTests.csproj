@@ -51,14 +51,16 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Problem14Test.cs" />
+    <Compile Include="LongExtensionTests.cs" />
     <Compile Include="Problem25Test.cs" />
     <Compile Include="Problem2Test.cs" />
     <Compile Include="Problem3Test.cs" />
     <Compile Include="Problem4Test.cs" />
-    <Compile Include="Problem7Test.cs" />
+    <Compile Include="Problem8Tests.cs" />
     <Compile Include="ProblemTests.cs" />
+    <Compile Include="Program10Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Problem12Tests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ProjectEuler\ProjectEuler.csproj">
